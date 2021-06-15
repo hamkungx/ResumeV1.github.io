@@ -1,0 +1,117 @@
+body{
+  background: rgb(51,0,255);
+  background: linear-gradient(180deg, rgba(51,0,255,1) 0%, rgba(51,51,255,1) 20%, rgba(51,102,255,1) 41%, rgba(51,153,255,1) 59%, rgba(51,204,255,1) 79%, rgba(51,255,255,1) 100%);
+  font-family: 'KoHo', sans-serif;
+}
+
+.navbar {
+  transition: all 300ms ease 0s; 
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  min-height: 53px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15); 
+}
+.navbar a {
+  vertical-align: middle; 
+  color: #FFFFFF;
+}
+.navbar.navbar-transparent {
+  background-color: transparent !important;
+  box-shadow: none;
+  color: #FFFFFF;
+  padding-top: 20px; 
+}
+
+.img-page .page-header {
+  min-height: 550px; 
+}
+.img-page .title {
+  text-align: center;
+  margin-top: 30px; 
+}
+
+.page-header {
+  height: 100vh;
+  max-height: 1050px;
+  padding: 0;
+  color: #FFFFFF;
+  position: relative;
+  background-position: center center;
+  background-size: cover; 
+}
+.page-header .page-header-image {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+}
+.page-header .container {
+  height: 100%;
+  z-index: 1;
+  text-align: center;
+  position: relative; 
+}
+.page-header .container > .content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 15px;
+  color: #FFFFFF;
+  width: 100%;
+  max-width: 880px;
+}
+
+.h2wh {
+    color: white;
+}
+.h2wh:hover {
+    color: aqua;
+}
+.h2wd {
+    color: rgb(0, 0, 0);
+}
+.h2wd:hover {
+    color: rgb(0, 17, 255);
+}
+.ronna {
+    color: blue;
+}
+.ronna:hover {
+    color: aqua;
+}
+.censk{
+    display: grid;
+    place-items: center;
+}
+
+.card:hover{
+  box-shadow: 5px 10px 8px;
+}
+
+/* scrollToTop */
+.scrollToTopBtn {
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 48px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all .5s ease
+}
+.showBtn {
+  opacity: 1;
+  transform: translateY(0)
+}
