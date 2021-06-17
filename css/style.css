@@ -67,21 +67,25 @@ body{
 }
 
 .h2wh {
+  transition: 0.5s;
     color: white;
 }
 .h2wh:hover {
+    transition: 0.5s;
     color: aqua;
 }
 .h2wd {
     color: rgb(0, 0, 0);
 }
 .h2wd:hover {
+  transition: 0.5s;
     color: rgb(0, 17, 255);
 }
 .ronna {
     color: blue;
 }
 .ronna:hover {
+  transition: 0.5s;
     color: aqua;
 }
 .censk{
@@ -90,8 +94,10 @@ body{
 }
 
 .card:hover{
+  transition: 0.5s;
   box-shadow: 5px 10px 8px;
 }
+
 
 /* scrollToTop */
 .scrollToTopBtn {
