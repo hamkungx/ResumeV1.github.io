@@ -7,6 +7,7 @@
     <!-- css -->
     <link href="css/style.css" rel="stylesheet">
     <link href="Bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- fontawesome -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -54,7 +55,7 @@
   <div id="Personal" >
     <div class="container">
     <div class="h2 text-center mb-4 title h2wh">ข้อมูลส่วนตัว (Personal Information)</div>
-      <div class="card" >
+      <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="card-body">
@@ -95,7 +96,7 @@
   <div id="Education">
     <div class="container">
           <div class="h2 text-center mb-4 title h2wh">ประวัติการศึกษา (Education)</div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div class="row">
               <div class="col-md-3 ">
                 <div class="card-body">
@@ -114,7 +115,7 @@
             </div>
           </div>
           <br>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div class="row">
               <div class="col-md-3 ">
                 <div class="card-body">
@@ -139,7 +140,7 @@
   <div id="Experience">
     <div class="container cc-education">
       <div class="h2 text-center mb-5 title h2wd">ประสบการณ์ (Experience)</div>
-      <div class="card">
+      <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <div class="row">
           <div class="col-md-11">
             <div class="card-body">
@@ -158,7 +159,7 @@
   <div id="Skills">
     <div class="container censk">
       <div class="h2 text-center mb-4 title h2wd">ทักษะและความสามารถพิเศษ (Skills)</div>
-      <div class="card">
+      <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <div class="row">
           <div class="col-md-12">
             <div class="card-body">
@@ -177,7 +178,7 @@
         <div class="container">
           <div class="h2 text-center mb-4 title h2wd">รางวัลแห่งความสำเร็จ (Honors/Awards)</div>
           <div class="row">
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4" data-aos="zoom-out-right">
               <div class="card" style="width: 18rem;">
               <img class="card-img-top" src="img/dc2.jpeg" alt="Card image cap">
               <div class="card-body">
@@ -187,7 +188,7 @@
               </div>
               </div>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4" data-aos="zoom-out">
               <div class="card" style="width: 18rem;">
               <img class="card-img-top" src="img/dc1.jpg" alt="Card image cap">
               <div class="card-body">
@@ -197,7 +198,7 @@
               </div>
               </div>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4" data-aos="zoom-out-left">
               <div class="card" style="width: 18rem;">
               <img class="card-img-top" src="img/dc3.jpg" alt="Card image cap">
               <div class="card-body">
@@ -259,5 +260,9 @@
     <script src="js/nav.js"></script>
     <script src="js/smooth-scroll.js"></script>
     <script src="js/scrolltotop.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
